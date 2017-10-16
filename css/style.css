@@ -1,0 +1,258 @@
+/*
+ Author: Jessica Anschutz 
+ Project Name: Challenge_CSS15 : SPOT 
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* CSS */
+
+body {
+    background-color: #f2f2f2;
+    font-weight: 300;
+    font-family: Lato;
+    font-size: 16px;
+    color: #555;
+    overflow-x:hidden;
+}
+
+/* Titres */
+h1, h2, h3, {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Typographie */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+/* Images */
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.img-p01:hover,.img-p02:hover,.img-p03:hover {
+    cursor: default;
+    transform: rotate(-10deg);
+    transition: all 0.1s ease-in-out 0s;  
+}
+
+.img-tel {
+    display:inline-flex;
+    padding-top:20px;
+}
+
+/* Liens */
+
+i.fa.fa-circle {
+    color: #ff7878;
+    text-decoration:none;
+    font-size:25px;
+}
+
+i.fa.fa-envelope-o {
+    color:#7b7b7b;
+    font-size:15px;
+}
+
+i.fa.fa-envelope-o:hover{
+    color:#fff;
+}
+
+
+a {
+    color: #999999;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#f2f2f2;;
+    text-decoration: none;
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.fa {
+    color: #ff7878;
+    font-size: 30px;
+}
+
+
+ header {
+    display: block;
+    height: 65px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar{
+	background: #2d2d2d;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1;
+    font-weight: 800;
+	font-size: 14px;
+}
+
+.navbar-header {
+	color: #999999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-nav li {
+	color: #ff7878;
+	font-size: 14px;
+	letter-spacing: 1px;
+    padding: 20px 15px;
+    font-weight: 800;
+    display: inline-flex;
+}
+
+a.navbar-header {
+    padding-right:650px;
+}
+
+.navbar-nav > .active > a {
+    background: #ff7878;
+    color:#fff;
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 15px;
+}
+
+
+/* Wrap Sections */
+
+#headerwrap {
+	background: url(../css/img/header.jpg) no-repeat center top;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position:center;
+	min-height: 500px;
+	width: 100%;
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* Container */ 
+.container2{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.container{
+    display:flex;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+
+/* Dark Grey Wrap */
+#dg {
+	background: #e0e0e0;
+	padding-top: 10px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h3 {
+	font-weight: 700;
+}
+
+/* Light Grey */
+#clients {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#clients h3 {
+	font-weight: 700;
+    text-align: center;
+}
+
+
+/* Red Wrap */
+#txt {
+	background: #ff7878;
+	padding-top: 35px;
+	padding-bottom: 35px;
+    text-align: center;
+}
+
+#txt h3 {
+	color: white;
+	font-weight: 700;
+}
+
+#txt p {
+	color: white;
+}
+
+.row .centered {
+    padding-top: 50px;
+}
+
+/* Footer Wrap */
+#footer-icons{
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    text-align:center;
+}
+
+#footer-icons i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#footer-icons i:hover {
+	color: #ff7878;
+}
+
+
+
+  
